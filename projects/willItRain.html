@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c08515e1ac.js" crossorigin="anonymous"></script>
+    <script src="../smooth-scroll.js"></script>
+    <script src="../scripts.js" defer></script>
+    <title>Project - Will it Rain</title>
+</head>
+<body>
+    <header class="text-white ">
+        <div class="container-fluid">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+              <img class="navImage" src="../assets/JA-2.png" alt="jaLogo">
+            </div>
+            <div class="navbar">
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../about.html"><i class="fa-solid fa-person"></i> About</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link"><i class="fa-solid fa-code"></i> Projects</a>
+                  <div class="dropdown-content">
+                    <a href="../projects/brian.html">Brian</a>
+                    <a href="../projects/mortgageSave.html">Mortgage Save</a>
+                    <a href="../projects/willItRain.html">Will it Rain</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+<main>
+    <section class="projects">
+        <div id="project3" class="project">
+            <h1 style="margin-left: 8px;"><img class="projectIcon shadow-lg overflow-hidden" style="margin-bottom: 16px;" src="../assets/willItRain/willItRainIcon.png" alt="willItRainIcon"> Will It Rain <div> <a class="btn btn-outline-light" style="margin-left: 0;" href="https://github.com/jamesishere00100001/WillItRain" role="button"><i class="fa-brands fa-github fa-xl"></i> View on GitHub</a></div> </h1>
+            <div class="tech">
+                <div class="techBox">UIKit</div> 
+                <div class="techBox">CoreLocation</div>
+                <div class="techBox">JSON</div> 
+            </div>
+                <div class="d-flex">
+                    <div class="projectIntroText">
+                        <h2>Concept</h2>
+                        <p>Will It Rain is a lightweight weather app using live weather data from an OpenWeather API, performing a network call to retieve
+                            the weather JSON data and manipulating to display current weather condtions and update the app background to suit. Apple SF 
+                            symbols are used to display current weather conditions in tandem with JSON derived condition details displayed in text format.<br><br></p>
+        
+                        <p>Functionality allows for user based location search in addition to typed city search.</p>
+                    </div>
+                </div>
+            <div class="projectImageBox">
+                <img class="project-image" src="../assets/willItRain/will1.png" alt="will1">
+                <img class="project-image" src="../assets/willItRain/will2.png" alt="will2">
+                <img class="project-image" src="../assets/willItRain/will3.png" alt="will3">
+            </div>
+            <div class="d-flex">
+                <div class="projectIntroText">
+                    <h2>Design</h2>
+                    <p>The basic layout of the app was built during a tutorial and then updated and customised to allow for additional functionality and more granular
+                        data presentation.<br><br></p>
+
+                    <p>Native symbols and locally stored images are used to provide the user with current weather conditions either in their current location via the CoreLocation
+                        intergation or within a location entered manually via the device soft keyboard.</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="projectIntroText">
+                    <h2>Challenges</h2>
+                    <p>Decoding and handeling of the 'detailed' weather conditions associated with the JSON return and intepretation and presentation of the information
+                        both in text and by means of the background image update was the primary challenge.<br><br></p>
+
+                        <p>Weather condition data was filtered through a detailed switch statement to extract the catergorised weather conditions and then passed to the
+                            relavant methods to update the UI respectively.</p>
+                </div>
+            </div>
+            <!-- <a class="btn btn-outline-light" href="https://github.com/jamesishere00100001/WillItRain" role="button"><i class="fa-brands fa-github fa-xl"></i> View on GitHub</a> -->
+        </div>
+        
+    </section>
+</main>
+    <footer class="text-white">
+        <p class="name-text"><i class="fa-solid fa-copyright"></i> 2023 James Attersley</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../scripts.js"></script>
+</body>
+</html>

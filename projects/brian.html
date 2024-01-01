@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c08515e1ac.js" crossorigin="anonymous"></script>
+    <script src="../smooth-scroll.js"></script>
+    <script src="../scripts.js" defer></script>
+    <title>Project - Brian</title>
+</head>
+<body>
+    <header class="text-white">
+        <div class="container-fluid">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+              <img class="navImage" src="../assets/JA-2.png" alt="jaLogo">
+            </div>
+            <div class="navbar">
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../about.html"><i class="fa-solid fa-person"></i> About</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link"><i class="fa-solid fa-code"></i> Projects</a>
+                  <div class="dropdown-content">
+                    <a href="../projects/brian.html">Brian</a>
+                    <a href="../projects/mortgageSave.html">Mortgage Save</a>
+                    <a href="../projects/willItRain.html">Will it Rain</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+     
+<main>
+    <section class="projects">
+        <div id="project1" class="project">
+            <h1 style="margin-left: 8px;"><img class="projectIcon shadow-lg overflow-hidden" style="margin-bottom: 16px;" src="../assets/brian/brian-app-icon.png" alt="brianIcon"></i> Brian <div><a href="https://apps.apple.com/us/app/brianapp/id6470937176" tabIndex="0"><img class="bn46" src="../assets/whiteAppStoreButton.png" alt="bn45"/></a>
+                <a class="btn btn-outline-light" href="https://github.com/jamesishere00100001/Brian" role="button"><i class="fa-brands fa-github fa-xl"></i> View on GitHub</a></div></h1>
+            <div class="tech">
+                <div class="techBox">UIKit</div> 
+                <div class="techBox">EventKit</div>
+                <div class="techBox">StoreKit</div> 
+                <div class="techBox">PhotosUI</div> 
+                <div class="techBox">Realm</div>
+            </div>
+                <div class="d-flex ">
+                    <div class="projectIntroText">
+                        <h2>Concept</h2>
+                        <p>Managing health care for a pet is challenging whilst maintaining a busy life of your own. Without keeping on top of regular booster
+                             vaccinations and worming etc a pet can become sick or worse. Brian looks to resolve these potential oversights by keeping all this
+                              information in one place, that is readily shareable with others who may take responsibility for their care.</p>
+                    </div>
+                </div>  
+            <div class="projectImageBox">
+                <img class="project-image" src="../assets/brian/brian1.png" alt="brian1">
+                <img class="project-image" src="../assets/brian/brian2.png" alt="brian2">
+                <img class="project-image" src="../assets/brian/brian3.png" alt="brian3">
+            </div>
+            <div class="d-flex ">
+                <div class="projectIntroText">
+                    <h2>Design</h2>
+                    <p>The UI design was designed to be simple and intuitive in its layout and presentation of information whilst allowing a second tier of
+                         detailed information to be held beyond. I worked with professional UX/UI Designer to establish the layout and flows. We have many 
+                         future features for the product therefore we endeavoured with our initial design to allow for this expansion without creating a jarring
+                          experience to the user.<br><br></p>
+
+                        <p>The tech design uses a Realm package to facilitate the CRUD local database functionality while allowing for future integration with
+                             a remote server interface for expansion and access to web and non-iOS platforms. The codebase is built using UIKit due in part to
+                              the previous experience of the developer and the breadth of the APIs available being beneficial to upcoming features. Currently the
+                               build employs PhotosUI, EventKit and StoreKit to support the existing feature list.</p>
+                </div>
+            </div> 
+            <!-- <div class="d-flex ">
+                <div class="projectIntroText">
+                    <h2>Challenges</h2>
+                    <p>As with any project there were elements of the development process that were more challenging that others. Some of these are listed with
+                         solutions established to resolve…..</p>
+                </div>
+            </div> -->
+            <div class="d-flex ">
+                <div class="projectIntroText">
+                    <h2>The future</h2>
+                    <p>The app is currently available across 175 countries and provides users with support in caring for their pets. We are in the process of
+                         preparing the roadmap for the next year with scheduling out the feature releases to further expand the functionality to our users.<br><br></p>
+
+                        <p>Upcoming features include:<br><br></p>
+                        <ul>
+                            <li>iCloud integration</li>
+                            <li>Profiles (Owner, dog sitter, dog walker etc.)</li>
+                            <li>Emergency contacts card</li>
+                            <li>Vet, insurance and 'next of kin' share tiles</li>
+                            <li>Weight tracking with graph</li>
+                            <li>Medication tracking with notes</li>
+                        </ul>
+                </div>
+            </div>
+            <!-- <a href="https://apps.apple.com/us/app/brianapp/id6470937176" tabIndex="0"><img class="bn46" src="../assets/whiteAppStoreButton.png" alt="bn45"/></a>
+            <a class="btn btn-outline-light" href="https://github.com/jamesishere00100001/Brian" role="button"><i class="fa-brands fa-github fa-xl"></i> View on GitHub</a> -->
+        </div>
+    </section>
+</main>
+    <footer class="text-white">
+        <p class="name-text"><i class="fa-solid fa-copyright"></i> 2023 James Attersley</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../scripts.js"></script>
+</body>
+</html>

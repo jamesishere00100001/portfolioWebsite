@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c08515e1ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="smooth-scroll.js"></script>
+    <script src="scripts.js" defer></script>
+    
+    <title>James Attersley</title>
+</head>
+
+<body>
+    <header class="text-white ">
+        <div class="container-fluid">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+              <img class="navImage" src="assets/JA-2.png" alt="jaLogo">
+              
+            </div>
+            <div class="navbar">
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa-solid fa-person"></i> About</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link"><i class="fa-solid fa-code"></i> Projects</a>
+                  <div class="dropdown-content">
+                    <a href="projects/brian.html">Brian</a>
+                    <a href="projects/mortgageSave.html">Mortgage Save</a>
+                    <a href="projects/willItRain.html">Will it Rain</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+     </header>
+      
+    <main>
+        <section class="intro">
+            <div class="bio align-items-center">
+                <div class="col-md-8">
+                    <div class="d-flex align-items-center h-40">
+                        <h1 class="introText">JAMES ATTERSLEY</h1>
+                    </div>
+                    <div class="d-flex align-items-center h-60">
+                        <h4 class="introText">iOS Developer</h4>  
+                    </div>
+                    <div>
+                        <p class="introText">I am a dedicated and motivated entry-level iOS engineer with a strong foundation in mobile app development. Seeking an opportunity
+                            to contribute my skills and passion for creating innovative and user-friendly applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bioImage shadow-lg overflow-hidden">
+                        <img src="assets/profileImage2.jpg" alt="Profile Picture" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="techIcons">
+                    <i class="fa-brands fa-swift fa-2xl"></i>
+                    <i class="fa-brands fa-html5 fa-2xl"></i>
+                    <i class="fa-brands fa-css3 fa-2xl"></i>
+                    <i class="fa-brands fa-js fa-2xl"></i>
+                    <i class="fa-brands fa-bootstrap fa-2xl"></i>
+                    <i class="fa-brands fa-square-github fa-2xl"></i>
+                    <i class="fa-brands fa-figma fa-2xl"></i>
+            </div>
+        </section>
+
+        <section class="full-width-container"> 
+            <div class="centered-text-box">
+                <h1 style="color: #CDCDCD;">My Projects</h1>
+            </div>
+            <section class="home">
+                
+                <div class="project-tile" onclick="location.href='projects/brian.html'">
+                    <img src="assets/brian/brian-preview.png" alt="Project 1">
+                    <h4 class="tileTitle">Brian</h4>
+                    <p>A pet health management tool</p>
+                </div>
+
+                <div class="project-tile" onclick="location.href='projects/mortgageSave.html#project2'">
+                    <img src="assets//mortgageSave/mortgageapp-preview.png" alt="Project 2">
+                    <h4 class="tileTitle">Mortgage Save</h4>
+                    <p>Mortgage overpayment calculator</p>
+                </div>
+
+                <div class="project-tile" onclick="location.href='projects/willItRain.html#project3'">
+                    <img src="assets/willItRain/weatherapp-preview.png" alt="Project 3">
+                    <h4 class="tileTitle">Will It Rain</h4>
+                    <p>Current weather conditions app</p>
+                </div>
+            </section>
+        </section>   
+    </main>
+        <footer class="text-white">
+            <p class="name-text"><i class="fa-solid fa-copyright"></i> 2023 James Attersley</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="scripts.js"></script>
+</body>
+</html>
+

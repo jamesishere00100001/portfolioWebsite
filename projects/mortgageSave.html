@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c08515e1ac.js" crossorigin="anonymous"></script>
+    <script src="../smooth-scroll.js"></script>
+    <script src="../scripts.js" defer></script>
+    <title>Project - Mortgage Save</title>
+</head>
+<body>
+    <header class="text-white">
+        <div class="container-fluid">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+              <img class="navImage" src="../assets/JA-2.png" alt="jaLogo">
+            </div>
+            <div class="navbar">
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../about.html"><i class="fa-solid fa-person"></i> About</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link"><i class="fa-solid fa-code"></i> Projects</a>
+                  <div class="dropdown-content">
+                    <a href="../projects/brian.html">Brian</a>
+                    <a href="../projects/mortgageSave.html">Mortgage Save</a>
+                    <a href="../projects/willItRain.html">Will it Rain</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+<main>   
+    <section class="projects">
+        <div id="project2" class="project">
+            <h1 style="margin-left: 8px;"><img class="projectIcon shadow-lg overflow-hidden" style="margin-bottom: 16px;" src="../assets/mortgageSave/saveIcon.png" alt="saveIcon"> Mortgage Save <div><a href="https://apps.apple.com/us/app/mortgage-save/id6467675017" tabIndex="0"><img class="bn46" src="../assets/whiteAppStoreButton.png" alt="bn45"/></a>
+                <a class="btn btn-outline-light" href="https://github.com/jamesishere00100001/MortgageApp" role="button"><i class="fa-brands fa-github fa-xl"></i> View on GitHub</a></div></i></h1>
+            <div class="tech">
+                <div class="techBox">UIKit</div> 
+                <div class="techBox">XCTest</div>
+            </div>
+                <div class="d-flex ">
+                    <div class="projectIntroText">
+                        <h2>Concept</h2>
+
+                        <p>Mortgage Save was born out of a desire to evaluate personal finances around UK property mortgages. The app provides quick unhindered calculation of
+                             mortgage loan repayments in instance of a potential house move or remortgage. It also gives insight into the effect of regular over payments to the
+                              loan, providing instant feedback as to the reduction of the mortgage term and saving against interest accrual at end of term.<br><br></p>
+
+                            <p>Personal finance and planning was not a topic taught during the developer’s schooling and providing this quick tool gives information
+                                 to the user on the impact of mortgage interest and term against the initial loan can be altered.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projectImageBox">
+                <!-- <video controls class="videoClips project-image">
+                    <source src="../assets/mortgageSave/saveClip.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> -->
+                <img class="project-image" src="../assets/mortgageSave/save1.png" alt="save1">
+                <img class="project-image" src="../assets/mortgageSave/save2.png" alt="save2">
+                <img class="project-image" src="../assets/mortgageSave/save3.png" alt="save3">
+            </div>
+            <div class="d-flex ">
+                <div class="projectIntroText">
+                    <h2>Design</h2>
+                    <p>A simple design was laid out on paper and then formalised in Figma to prepare for user interaction. A UX/UI Designer was consulted to finesse and finalise
+                         the layout and screens. After some work-shopping with friends I realised that the terminology common to myself having worked close to the mortgage industry
+                          was not to be taken for granted. Additional screens were added with expanded information descriptions to the user experience.<br><br></p>
+
+                        <p>Result share functionality was also added to allow users to store and send calculation output to others for consideration.</p>
+                </div>
+            </div>   
+            <div class="d-flex ">
+                <div class="projectIntroText">
+                    <h2>Challenges</h2>
+                    <p>XCTests were used in the development of the app to ensure accuracy of the results generated. Error handling is managed and presented to the user via an UIAlert to
+                        present the error occurrence and provide resolution instruction.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex ">
+                <div class="projectIntroText">
+                    <h2>The future</h2>
+                    <p>Although the current version of the app provides users with a base level of information there are plans to expand the features on offer in the future to include
+                        the following:<br><br></p>
+                    <ul>
+                        <li>Estimated total loan amount calculator</li>
+                        <li>Integration of mortgage rate data from market API</li>
+                        <li>Foreign currency support</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <a href="https://apps.apple.com/us/app/mortgage-save/id6467675017" tabIndex="0"><img class="bn46" src="../assets/whiteAppStoreButton.png" alt="bn45"/></a>
+            <a class="btn btn-outline-light" href="https://github.com/jamesishere00100001/MortgageApp" role="button"><i class="fa-brands fa-github fa-xl"></i> View on GitHub</a> -->
+        </div>
+    </section>
+</main>
+    <footer class="text-white">
+        <p class="name-text"><i class="fa-solid fa-copyright"></i> 2023 James Attersley</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../scripts.js"></script>
+</body>
+</html>
